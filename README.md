@@ -1,8 +1,3 @@
 # 2019spring
-
-this is a demo repository.
-
-
-JJJJJJ
-
 Welcome 
+bij ons website
