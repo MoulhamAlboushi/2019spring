@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.wrapper {
+  display: flex;
+  border: 5px solid red;
+  min-width: 100vh;
+  position: relative;
+}
+body {
+  margin: 0;
+}
+.navigation {
+  flex: 0 0 285px;
+  border: 2px solid green;
+}
+.content {
+  flex: 1 1 0;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.content-row {
+  border: 5px solid blue;
+  flex: 1 1 0;
+  display: flex;
+  align-items: flex-start;
+}
+.cards {
+  flex: 1 1 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 1 1 25%;
+  flex: 0 1 calc(20% -50px);
+  border: 5px solid yellow;
+  height: 115px;
+  margin: 2px;
+}
+.navigation-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: column;
+  height: 100%;
+}
